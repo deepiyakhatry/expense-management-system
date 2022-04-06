@@ -1,0 +1,17 @@
+.login {
+    height: 500px;
+    width: 500px;
+    background-color: #ebebeb;
+    margin-left: 500px;
+    margin-top: 50px;
+  }
+  
+  .login-header{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    color: wheat;
+  
+  }
