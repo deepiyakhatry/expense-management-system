@@ -1,0 +1,32 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './Register.css'
+
+const Register = () => {
+
+return(
+    <div className="login">
+    <div className="login-header">
+      {/* <div className="logo-img">
+      </div> */}
+      EMS
+    </div>
+    <div className="login-content">
+      <div className="login-content-header">Register</div>
+      <div className="login-content-input">
+        <label className="login-label">Username</label>
+        <input className="login-input" type="text" placeholder="Enter Email" />
+        <label className="login-label">Password</label>
+        <input className="login-input" type="password" placeholder="Enter Password" />
+        <button className="login-submit">Submit</button>
+      </div>
+
+      <div className="login-link">Not Registered ? <span>
+        <Link to="/login">Login</Link>
+</span> Here </div>
+   </div>  
+  </div>
+)
+}
+
+export default Register
